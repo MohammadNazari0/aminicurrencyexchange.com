@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Amini Currency Exchange
+        </title>
+        <link type="text/css" rel="stylesheet" href="3style.css">
+        
+
+    </head>
+
+
+
+<body>
+    <section id="banner">
+
+        <div class="banner-text">
+            <h1> فیسبوک ما </h1>
+            <div class="banner-img">
+                <a href="https://m.facebook.com/profile.php?id=100064501856682&eav=AfYj4oic93JzhuKIjMD5fo4bSwnv2scFjedc3ckdIomzAUhzKJ61lyUUozfYt8Tz5C4&tsid=0.08962648792276551&source=result">
+              <img src="photo0001/2.jpg">
+              </a>
+            </div>
+            <p> </p>
+            </div> 
+            <div class="banner-text">
+                <h1> شماره های تماس </h1>
+                <p> 079####### </p>
+                <p> 079####### </p>
+                </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="1index.html"> صحفه اصلی </a></li>
+                <li><a href="4index.html"> نرخ روز </a></li>
+                <li><a href="2index.html"> نمایندگی ها </a></li>
+                <li><a href="3index.html"> تماس با ما </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="photo0001/menu.png" id="menu" >
+    </div>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var menu = document.getElementById("menu")
+        var sideNav = document.getElementById("sideNav")
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-200px"){
+                sideNav.style.right = "0"
+                menu.src ="photo0001/download.png";
+            }
+            else{
+                sideNav.style.right = "-200px"
+                menu.src ="photo0001/menu.png";
+            }
+        }
+
+    </script>
+
+</body>
+
+
+
+
+</html>

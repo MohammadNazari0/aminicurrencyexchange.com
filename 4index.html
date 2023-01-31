@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Amini Currency Exchange
+        </title>
+        <link type="text/css" rel="stylesheet" href="4style.css">
+        
+
+    </head>
+
+
+
+<body>
+    <section id="banner">
+
+        <div class="banner-text">
+            <div class="banner-btn">
+        </div>
+
+    
+
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="1index.html"> صحفه اصلی </a></li>
+                <li><a href="4index.html"> نرخ روز </a></li>
+                <li><a href="2index.html"> نمایندگی ها </a></li>
+                <li><a href="3index.html"> تماس با ما </a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="menuBtn">
+        <img src="photo0001/menu.png" id="menu" >
+    </div>
+            </div>
+    </section>
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var menu = document.getElementById("menu")
+        var sideNav = document.getElementById("sideNav")
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-200px"){
+                sideNav.style.right = "0"
+                menu.src ="photo0001/download.png";
+            }
+            else{
+                sideNav.style.right = "-200px"
+                menu.src ="photo0001/menu.png";
+            }
+        }
+
+    </script>
+
+</body>
+
+
+
+
+</html>
